@@ -1,0 +1,137 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: white;
+}
+.first_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    gap: 20px;
+}
+.first_footer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+form input{
+    width: 300px;
+    height: 50px;
+    padding: 0px 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+form button{
+        height: 52px;
+        position: relative;
+        width: 120px;
+        left: -30px;
+        font-size: 17px;
+        background: #000;
+        color: white;
+        border-radius:25px;
+        cursor: pointer;
+        border: 1px solid white;
+}
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px;
+}
+.main_one{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.main_one h2{
+    font-size: 40px;
+    font-family: cursive;
+}
+.main_one p{
+    width: 250px;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.icons ul li{
+    font-size: 30px;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.main_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.main_two ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.last_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.payment{
+    display: flex;
+    gap: 30px;
+}
+.payment img{
+    height: 50px ;
+    width: 60px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+
+/* responsive */
+@media screen and (width<=1260px) {
+    .footer-info{
+        gap: 20px;
+    }
+    .main_one{
+        width: 300px;
+    }
+}
+@media screen and (width<=1024px) {
+    .main_footer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-info{
+        gap: 80px;
+    }
+    .main_one{
+        flex-direction: row;
+        width: 100%;
+        gap: 40px;
+    }
+}

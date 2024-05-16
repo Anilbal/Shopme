@@ -1,0 +1,76 @@
+/*
+! For Admin categories page
+*/
+.admin-cat{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.add-cat{
+    background: black;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+}
+.add-cat:hover{
+    background: orangered;
+    transition: 0.2s;
+}
+.admin-cat h1{
+    text-transform: uppercase;
+}
+.admin-cat p{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+table, th, td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+}
+th, td{
+    padding: 7px 10px;
+}
+.update{
+    background: #1BC42C;
+    margin-right: 5px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+}
+.update:hover{
+    background: #000;
+}
+.remove{
+    background: #A21124;
+    height: 30px;
+    width: 90px;
+    border: none;
+    color: white;
+    border-radius: 0.4rem;
+}
+.remove:hover{
+    background: #000;
+}
+
+
+/*
+!admin products image 
+ */
+.admin-image{
+    height: 100px;
+    width: 100px;
+}
+
+
+

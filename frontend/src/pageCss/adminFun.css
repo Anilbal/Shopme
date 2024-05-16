@@ -1,0 +1,107 @@
+/*
+!add category css
+*/
+
+.add-category{
+    padding: 70px 100px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.admin-addCat{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.admin-addCat input{
+    width: 500px;
+    border: 1px solid gray;
+}
+.admin-addCat label{
+    font-weight: 600;
+}
+.add-category button{
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    background: #000;
+    color: white;
+    border: none;
+    transition: 0.2s;
+}
+.add-category button:hover{
+    background: orangered;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.add-category p{
+    color: red;
+}
+.admin-title{
+   text-transform: capitalize;
+}
+
+
+/* 
+! for adding admin products
+ */
+ .admin-products{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    text-transform: uppercase;
+ }
+ .admin-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 16px;
+ }
+ .admin-form label{
+    font-weight: 600;
+ }
+ .admin-form input{
+    width: 600px;
+ }
+ .admin-products button{
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    background: #000;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    transition: 0.2s;
+ }
+ .admin-products button:hover{
+    background: orangered;
+    transition: 0.2s;
+    cursor: pointer;
+ }
+ .textarea-admin{
+    height: 200px;
+    width: 600px;
+    padding: 10px;
+ }
+ .select-admin{
+    height: 30px;
+    width: 250px;
+ }
+
+ /*
+ !products update image  
+  */
+  .update-image{
+   height:400px;
+   width: 300px;
+  }

@@ -1,0 +1,43 @@
+.email_verify{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-verify{
+    border: 2px solid rgb(173, 171, 171);
+    height: 60vh;
+    width: 80vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top:60px ;
+    border-radius: 1rem;
+}
+.main-verify h2{
+    font-size: 30px;
+}
+.main-verify h3{
+    font-size: 18px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+}
+.main-verify hr{
+    color: gray;
+    width: 80%;
+}
+.btn-verify{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    background: rgb(66, 66, 236);
+    border: none;
+    color: white;
+    border-radius: 1rem;
+}
+.success{
+    color: green;
+}

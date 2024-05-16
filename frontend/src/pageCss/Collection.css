@@ -1,0 +1,180 @@
+.main-collection{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.collection-carousel{
+    width: 100%;
+    height: 550px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.carousel-title{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    gap: 40px;
+    padding: 60px 30px;
+}
+.carousel-title h3{
+    font-size: 60px;
+    color: orangered;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 550;
+}
+.carousel-title p{
+    font-size: 25px;
+    color: #8a817c;
+}
+.carousel-title h4{
+    font-size: 25px;
+    color: orangered;
+    text-transform: uppercase;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ece2d0;
+}
+.collection-carousel img{
+    height: 100%;
+    width: 400px;
+    border-radius: 0.2rem;
+    margin: 0px 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* ! collection products css */
+.collection-products{
+    padding: 50px 100px;
+}
+.collection-title{
+    display: flex;
+    align-items: center;
+    gap: 30rem;
+}
+.title-div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.hor-line{
+    height: 30px;
+    background: orangered;
+    width: 5px;
+    border: none;
+}
+.title-div h2{
+    text-transform: uppercase;
+}
+.collection-title p{
+    color: red;
+}
+
+.collection-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    gap: 40px;
+    padding: 20px;
+}
+.products-grid{
+    /* border: 1px solid black; */
+    height: 450px;
+    width: 350px;
+    border-radius: 0.2rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.products-grid img{
+    height: 400px;
+    width: 100%;
+    border-radius: 0.2rem;
+}
+.products-details{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* !mens page only carousel */
+.carousel-titles{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px;
+}
+.carousel-titles h3{
+    font-size: 60px;
+    color: #003554;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 550;
+}
+.carousel-titles p{
+    font-size: 25px;
+    color: #bb9457;
+}
+.carousel-titles h4{
+    font-size: 25px;
+    color: #003554;
+    text-transform: uppercase;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c2c5aa;
+}
+
+
+/* !shoes page only carousel */
+.collection-shoes{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px;
+}
+.carousel-shoes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #1a7431;
+}
+.carousel-shoes h3{ 
+    font-size: 40px;
+    font-weight: 600;
+}
+.carousel-shoes p{ 
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 20px;
+}
+.image-shoes{
+    display: flex;
+    gap: 30px;
+}
+.image-shoes img{
+    height: 400px;
+    width: 320px;
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.image-one{
+    margin-top: 40px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #F0F0F0;
+    padding-top: 90px;
+    /* overflow: hidden; */
+}
+.products-page{
+    display: grid;
+    grid-template-columns: 0.3fr 3fr;
+    /* padding: 40px 50px; */
+}
+
+.button-view{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.active{
+    background: #000;
+    color: white;
+}

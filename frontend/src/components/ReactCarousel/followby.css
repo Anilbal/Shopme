@@ -1,0 +1,57 @@
+.follow_page{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    background: white;
+}
+.follow_page p{
+   font-size: 50px;
+   font-weight: 700;
+}
+.insta_image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+}
+.sub_images{
+    position: relative;
+}
+.sub_images:hover i{
+    visibility: visible;
+    border-radius: 50%;
+}
+.sub_images img{
+    height: 150px ;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+}
+.sub_images i{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    font-size: 40px;
+    color: white;
+    background: #00BFFF;
+}
+
+
+/* responsive */
+
+@media screen and (width<=1250px) {
+    .insta_image{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+}

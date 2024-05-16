@@ -1,0 +1,55 @@
+.sidebar{
+    height: 90vh;
+    background: white;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: sticky;
+    top: 80px;
+}
+.sidebar-dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.sidebar-dashboard p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 550;
+}
+.icons-admin{
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    gap: 16px;
+    font-size: 20px;
+    color: black;
+}
+.link-text{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+
+}
+
+.sidebar-components{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sidebar-components p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 550;
+}
+.active-admin{
+    color: white;
+    background: #000;
+}

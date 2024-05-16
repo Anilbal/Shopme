@@ -1,0 +1,7 @@
+.adminLayout{
+    display: grid;
+    grid-template-columns:0.7fr 3fr;
+}
+/* .admin-sidebar{
+   
+} */

@@ -1,0 +1,100 @@
+.carousel-container{
+  height: 90vh;
+  width: 100%;
+}
+.slider{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.slider-hidden{
+    display: none;
+}
+.slides{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.carousel-details {
+    position: absolute;
+    display: flex;
+    left: 10rem;
+    flex-direction: column;
+    color: black;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.carousel-details h2{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.carousel-details p{
+    font-size: 30px;
+    font-weight: 900;
+}
+.carousel-details button{
+    height: 50px;
+    width: 180px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background: #000;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.carousel-details button:hover{
+    background: orangered;
+    transition: 0.2s ease;
+}
+.arrow{
+    position: absolute;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid gray;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+.arrow:hover{
+    background: #edede9;
+    color: orangered;
+}
+.pre-btn{
+    left: 3rem;
+
+}
+.next-btn{
+    right: 3rem;
+}
+.indicators{
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    gap: 10px;
+}
+.indicator{
+    background: black;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px #555;
+}
+.inactive{
+    background: white;
+}

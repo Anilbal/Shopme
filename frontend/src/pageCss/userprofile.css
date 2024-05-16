@@ -1,0 +1,213 @@
+.user-Profile{
+    height: 100%;
+    width: 100%;
+    padding: 50px 150px;
+   
+}
+.update-profile{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.update-profile h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.update-profile button{
+    height: 40px;
+    width: 150px;
+    margin-left: 35%;
+    font-size: medium;
+    background: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.update-profile button:hover{
+    background: orangered;
+}
+.user-form{
+    margin-left:170px ;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.user-form input{
+    border: 1px solid gray;
+    width: 60%;
+    border-radius: 0.3rem;
+}
+.user-formUpdate{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.reset-button{
+    /* border: 1px solid black; */
+    margin-left: 140px;
+    display: flex;
+    height: 70px;
+    width: 700px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.reset-button p{
+    color: red;
+    text-decoration: underline;
+}
+.reset-button button{
+    background: transparent;
+    color: red;
+    font-size: 25px;
+}
+.reset-button button:hover{
+    background: transparent;
+    text-decoration: underline;
+}
+
+
+
+/* 
+! user profile page css
+ */
+ .user-carousel{
+    border: 1px solid black;
+    height: 30vh;
+    width: 100%;
+    color: white;
+    background: #343a40;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+ }
+ .user-carousel button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+    background: orangered;
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin-top: 100px;
+    border-radius: 0.1rem;
+    cursor: pointer;
+ }
+ .user-carousel button:hover{
+    color: gray;
+ }
+.user-infoDiv{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px 60px;
+}
+.userProfile-div{
+    border: 1px solid black;
+    height: 80vh;
+    width: 50vh;
+    margin: 10px;
+    background: white;
+    margin-top: -100px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+ }
+ .userName{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .userProfile-div hr{
+    width: 100%;
+    border: 0.5px solid black;
+ }
+ .user-dataDiv{
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+.sub-userData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub-userData p{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sub-userData input{
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+ .order-profileDiv{
+    width: 80%;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+ }
+ .allOrders{
+    margin-top: -60px;
+    color: white;
+ }
+ .order-profileDiv td{
+    padding: 12px 20px;
+    border: none;
+ }
+ .order-profileDiv tbody{
+    border: 1px solid gray;
+ }
+ .order-profileDiv thead{
+    border: 1px solid gray;
+ }
+ .user-detailsBtn{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-size: 18px;
+    background: orangered;
+    color: white;
+    border: none;
+ }
+ .user-detailsBtn:hover{
+    color: gray;
+ }
+ .user-link{
+    text-decoration: none;
+ }
+
+ /* .quantity-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ } */
